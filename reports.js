@@ -71,9 +71,9 @@ window.openReport = function(id) {
             <div class="doc-section">
                 <div class="doc-h3">2. Структура навантаження</div>
                 <ul>
-                    <li>Лекційні заняття: <strong>${report.stats.lec}</strong> (${report.stats.perLec.toFixed(1)}%)</li>
-                    <li>Практичні заняття: <strong>${report.stats.prac}</strong> (${report.stats.perPrac.toFixed(1)}%)</li>
-                    <li>Лабораторні роботи: <strong>${report.stats.lab}</strong> (${report.stats.perLab.toFixed(1)}%)</li>
+                    <li>Лекційні заняття: <strong>${report.stats.lec}</strong> (${report.stats.perLec}%)</li>
+                    <li>Практичні заняття: <strong>${report.stats.prac}</strong> (${report.stats.perPrac}%)</li>
+                    <li>Лабораторні роботи: <strong>${report.stats.lab}</strong> (${report.stats.perLab}%)</li>
                 </ul>
             </div>
 
@@ -110,7 +110,7 @@ function generateAnalysisText(data) {
     if (data.hours < 6) {
         text += `Фактичне навантаження є нижчим за мінімально рекомендовані норми. Рекомендується розглянути можливість залучення викладача до додаткових видів робіт або збільшення академічних годин у наступному семестрі. `;
     } else if (data.hours > 16) {
-        text += `УВАГА: Виявлено перевищення рекомендованих норм навантаження! Така інтенсивність може негативно вплинути на якість викладання. Рекомендується перерозподілити частину годин (${(data.hours - 16).toFixed(1)} год) на інших співробітників кафедри. `;
+        text += `УВАГА: Виявлено перевищення рекомендованих норм навантаження! Така інтенсивність може негативно вплинути на якість викладання. Рекомендується перерозподілити частину годин (${(data.hours - 16)} год) на інших співробітників кафедри. `;
     } else {
         text += `Показники знаходяться в межах оптимальної норми, що сприяє ефективній організації навчального процесу. `;
     }
