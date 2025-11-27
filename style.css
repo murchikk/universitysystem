@@ -6,13 +6,13 @@
 }
 
 nav {
-    background-color: #f3f3f3;
+    background-color: #9A9E81;
     height: 12vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
-    border-bottom: #dcdcdc 1px solid;
+    border-bottom: #4B5320 1px solid;
 }
 
 nav h2, nav button {
@@ -45,7 +45,7 @@ main h1 {
 
 .mainpage {
     height: 20vh;
-    border-top: #dcdcdc 1px solid;
+    border-top: #4B5320 1px solid;
 }
 
 .mainpage p{
@@ -55,12 +55,12 @@ main h1 {
 }
 
 .files {
-    border-top: #dcdcdc 1px solid;
+    border-top: #4B5320 1px solid;
     height: 50vh;
 }
 
 .search {
-    border-top: #dcdcdc 1px solid;   
+    border-top: #4B5320 1px solid;   
     height: auto; 
     min-height: 50vh;
     padding-bottom: 5vh;
@@ -76,7 +76,7 @@ main h1 {
     width: 400px;
     font-size: 16px;
     background-color: white;
-    border: #dcdcdc 2px solid;
+    border: #4B5320 2px solid;
     border-radius: 7px;
     padding-left: 10px;
 }
@@ -95,14 +95,14 @@ main h1 {
 }
 
 .schedule-header {
-    background-color: #f3f3f3; 
+    background-color: #9A9E81; 
     padding: 15px;
-    border-bottom: #dcdcdc 1px solid;
+    border-bottom: #4B5320 1px solid;
 }
 
 .schedule-header h4 {
     font-family: "Rubik", sans-serif;
-    color: #2a2a2a;
+    color: #4B5320;
     font-size: 1.2rem;
 }
 
@@ -125,8 +125,8 @@ main h1 {
 
 .schedule-time {
     font-weight: bold;
-    color: #2a2a2a;
-    background: #f3f3f3;
+    color: #4B5320;
+    background: #9A9E81;
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 0.8rem;
@@ -193,7 +193,7 @@ main h1 {
 }
 .busiest-day span {
     font-weight: bold;
-    color: #2a2a2a;
+    color: #4B5320;
 }
 
 .error-msg {
@@ -219,7 +219,7 @@ main h1 {
 }
 
 .day-title {
-    background-color: #2a2a2a;
+    background-color: #4B5320;
     color: white;
     padding: 8px 15px;
     font-size: 1rem;
@@ -274,7 +274,7 @@ main h1 {
 }
 
 .info {
-    border-top: #dcdcdc 1px solid;
+    border-top: #4B5320 1px solid;
     height: 60vh;
     display: flex;
     justify-content: space-between;
@@ -298,7 +298,7 @@ main h1 {
 }
 
 .info h2 {
-    border-bottom: #dcdcdc 1px solid;
+    border-bottom: #4B5320 1px solid;
     padding-bottom: 5vh;
     font-size: 30px;
     margin-bottom: 2vh;
@@ -317,7 +317,7 @@ main h1 {
 }
 
 .inputs{
-    border-top: #dcdcdc 1px solid;
+    border-top: #4B5320 1px solid;
     min-height: 40vh;
     padding-top: 5vh;
     display: flex;
@@ -329,7 +329,7 @@ main h1 {
     height: 40px;
     width: 400px;
     background-color: white;
-    border: #dcdcdc 2px solid;
+    border: #4B5320 2px solid;
     border-radius: 7px;
     margin-top: 1vh;
     margin-bottom: 3vh;
@@ -340,7 +340,7 @@ main h1 {
 .inputs button, #search-btn {
     height: 40px;
     width: 100px;
-    background-color: #2a2a2a;
+    background-color: #4B5320;
     color: white;
     border-radius: 10px;
     border: none;
@@ -441,7 +441,7 @@ main h1 {
     margin-top: 20px;      
     padding: 20px;
     background-color: #fff; 
-    border: 1px solid #dcdcdc;
+    border: 1px solid #4B5320;
     border-radius: 8px;    
     box-shadow: 0 2px 5px rgba(0,0,0,0.05); 
 }
@@ -449,7 +449,7 @@ main h1 {
 .report-header {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #2a2a2a;
+    color: #4B5320;
     border-bottom: 1px solid #eee; 
     padding-bottom: 10px;
     margin-bottom: 15px;
@@ -494,7 +494,7 @@ main h1 {
     width: 140px;
     height: 40px; 
     text-align: center;
-    background-color: #2a2a2a; 
+    background-color: #4B5320; 
     color: white;
     border: none;
     border-radius: 6px;
@@ -521,7 +521,7 @@ footer {
 .links {
     display: flex;
     justify-content: space-between;
-    border-top: #dcdcdc 1px solid;
+    border-top: #4B5320 1px solid;
     padding: 5vh 0;
 }
 
@@ -536,7 +536,7 @@ footer {
 .links a {
     display: block;
     text-decoration: none;
-    color: #2a2a2a;
+    color: #4B5320;
     margin-bottom: 15px;
 }
 
@@ -633,7 +633,7 @@ footer {
 }
 
 .open-report-btn {
-    background-color: #2a2a2a;
+    background-color: #4B5320;
     color: white;
     border: none;
     padding: 8px 15px;
