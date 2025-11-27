@@ -141,7 +141,7 @@ btn.addEventListener('click', () => {
 
         const totalHours = totalPairs * 2;
         
-        const getPercent = (count) => totalPairs > 0 ? Math.round((count / totalPairs) * 100) : 0;
+        const getPercent = (count) => totalPairs > 0 ? ((count / totalPairs) * 100): 0;
         
         const perLec = getPercent(countLec);
         const perPrac = getPercent(countPrac);
@@ -183,18 +183,18 @@ btn.addEventListener('click', () => {
                     </div>
 
                     <div class="stat-item">
-                        <div class="stat-label"><span>Лекції</span> <span>${countLec} (${perLec.toFixed(1)}%)</span></div>
-                        <div class="progress-bg"><div class="progress-fill fill-lecture" style="width: ${perLec.toFixed(1)}%"></div></div>
+                        <div class="stat-label"><span>Лекції</span> <span>${countLec} (${perLec}%)</span></div>
+                        <div class="progress-bg"><div class="progress-fill fill-lecture" style="width: ${perLec}%"></div></div>
                     </div>
 
                     <div class="stat-item">
-                        <div class="stat-label"><span>Практичні</span> <span>${countPrac} (${perPrac.toFixed(1)}%)</span></div>
-                        <div class="progress-bg"><div class="progress-fill fill-practice" style="width: ${perPrac.toFixed(1)}%"></div></div>
+                        <div class="stat-label"><span>Практичні</span> <span>${countPrac} (${perPrac}%)</span></div>
+                        <div class="progress-bg"><div class="progress-fill fill-practice" style="width: ${perPrac}%"></div></div>
                     </div>
 
                     <div class="stat-item">
-                        <div class="stat-label"><span>Лабораторні</span> <span>${countLab} (${perLab.toFixed(1)}%)</span></div>
-                        <div class="progress-bg"><div class="progress-fill fill-lab" style="width: ${perLab.toFixed(1)}%"></div></div>
+                        <div class="stat-label"><span>Лабораторні</span> <span>${countLab} (${perLab}%)</span></div>
+                        <div class="progress-bg"><div class="progress-fill fill-lab" style="width: ${perLab}%"></div></div>
                     </div>
 
                     <div class="busiest-day">
