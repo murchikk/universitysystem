@@ -12,7 +12,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
-    border-bottom: #4B5320 1px solid;
 }
 
 nav h2, nav button {
@@ -27,7 +26,7 @@ nav button {
 nav a {
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .menu {
@@ -642,4 +641,3 @@ footer {
     font-family: "Rubik", sans-serif;
 }
 .open-report-btn:hover { background-color: #000000; }
-
