@@ -183,18 +183,18 @@ btn.addEventListener('click', () => {
                     </div>
 
                     <div class="stat-item">
-                        <div class="stat-label"><span>Лекції</span> <span>${countLec} (${perLec}%)</span></div>
-                        <div class="progress-bg"><div class="progress-fill fill-lecture" style="width: ${perLec}%"></div></div>
+                        <div class="stat-label"><span>Лекції</span> <span>${countLec} (${perLec.toFixed(1)}%)</span></div>
+                        <div class="progress-bg"><div class="progress-fill fill-lecture" style="width: ${perLec.toFixed(1)}%"></div></div>
                     </div>
 
                     <div class="stat-item">
-                        <div class="stat-label"><span>Практичні</span> <span>${countPrac} (${perPrac}%)</span></div>
-                        <div class="progress-bg"><div class="progress-fill fill-practice" style="width: ${perPrac}%"></div></div>
+                        <div class="stat-label"><span>Практичні</span> <span>${countPrac} (${perPrac.toFixed(1)}%)</span></div>
+                        <div class="progress-bg"><div class="progress-fill fill-practice" style="width: ${perPrac.toFixed(1)}%"></div></div>
                     </div>
 
                     <div class="stat-item">
-                        <div class="stat-label"><span>Лабораторні</span> <span>${countLab} (${perLab}%)</span></div>
-                        <div class="progress-bg"><div class="progress-fill fill-lab" style="width: ${perLab}%"></div></div>
+                        <div class="stat-label"><span>Лабораторні</span> <span>${countLab} (${perLab.toFixed(1)}%)</span></div>
+                        <div class="progress-bg"><div class="progress-fill fill-lab" style="width: ${perLab.toFixed(1)}%"></div></div>
                     </div>
 
                     <div class="busiest-day">
@@ -202,7 +202,7 @@ btn.addEventListener('click', () => {
                         <small style="color:#888;">(Максимум пар: ${maxPairsInDay})</small>
                     </div>
 
-                    <button id="save-report-btn" class="save-btn" style="margin-top:20px;">Завантажити</button>
+                    <button id="save-report-btn" class="save-btn" style="margin-top:20px;">Зберегти</button>
                 </div>
             </div>
         `;
